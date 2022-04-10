@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .format_base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header .format_base .logo{
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+header .format_base a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+header .format_base a:hover{
+    color: blue;
+}
+
+.introducao {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 141);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .format_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .titulo{
+    padding: 0 0 50px 0;
+    font-size: 40px;
+}
+
+.container .descricao{
+    padding: 0 50px 50px 50px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.format_busca{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(218, 218, 64);
+}
+
+.container .format_cep{
+    line-height: 30px;
+    background-color: white;
+}
+
+.container .busca{
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container .busca:hover{
+    background-color: blue;
+    color: yellow;
+}
+
+.format_tabela{
+    border: 1px black solid;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.format_tabela .referencia{
+    font-weight: bold;
+}
+
+.format_tabela tr td{
+    padding: 0 50px 0 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0 15px 0;
+}

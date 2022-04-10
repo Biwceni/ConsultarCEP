@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Consulta CEP</title>
+</head>
+
+<body>
+    <header>
+        <div class="format_base">
+            <h2 class="logo">CONSULTA CEP</h2>
+            <nav>
+                <a href="#quem_somos">Quem Somos</a>
+                <a href="#consultar_cep">Consultar CEP</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="quem_somos" class="introducao">
+        <div class="container">
+            <h3 class="titulo">Quem Somos?</h3>
+            <p class="descricao">Somos um site usado para a consulta do CEP. Caso estiver com dúvidas sobre as
+                informações do seu CEP,
+                use o nosso serviço, com isso você poderá saber de todas as informações que compõem o seu CEP.
+            </p>
+        </div>
+    </section>
+
+    <section id="consultar_cep" class="format_busca">
+        <div class="container">
+            <div class="format_row">
+                <h3 class="titulo titulo_response">Consultar CEP</h3>
+                <input type="text" size="20px" placeholder="CEP" id="cep_info" class="format_cep">
+                <button class="busca" onclick="consultarCep()">BUSCAR</button>
+            </div>
+            <table id="tabela_cep" class="format_tabela">
+                <tr>
+                    <td>CEP</td>
+                    <td id="cep" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>Logradouro</td>
+                    <td id="logradouro" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>Complemento</td>
+                    <td id="complemento" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>Bairro</td>
+                    <td id="bairro" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>Localidade</td>
+                    <td id="localidade" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>UF</td>
+                    <td id="uf" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>IBGE</td>
+                    <td id="ibge" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>GIA</td>
+                    <td id="gia" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>DDD</td>
+                    <td id="ddd" class="referencia"></td>
+                </tr>
+                <tr>
+                    <td>Siafi</td>
+                    <td id="siafi" class="referencia"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos os Direitos Reservados a Consulta CEP</p>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

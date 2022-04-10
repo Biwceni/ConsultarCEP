@@ -1,0 +1,95 @@
+@media screen and (max-width: 915px){
+    .container .titulo{
+        padding: 0 0 20px 0;
+        font-size: 30px;
+    }
+    .format_tabela{
+        font-size: 15px;
+    } 
+    .format_tabela tr td{
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 653px){ 
+    .container .format_row{
+        display: flex;
+        flex-direction: row;
+    }
+    .titulo_response{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .format_tabela{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .container .descricao{
+        font-size: 20px;
+    }
+    .format_tabela tr td{
+        padding: 0 10px 0 10px;
+    }
+    .format_cep{
+        margin-bottom: 10px;
+        line-height: 10px;
+    }
+    .container .busca{
+        margin-left: 10px;
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .format_tabela{
+        font-size: 15px;
+    }
+    .format_tabela tr td{
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media screen and (max-width: 556px){
+    header .format_base{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .format_base .logo{
+        margin-left: 0;
+    }
+    header .format_base a{
+        margin-right: 0;
+    }
+    .container .descricao{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .container .format_row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 406px){
+    footer p{
+        font-size: 15px;
+    }
+    
+    .container .descricao{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    header .format_base .logo{
+        font-size: 25px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
